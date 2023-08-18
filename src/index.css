@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,83 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.nav-link{
+  color:black !important;
+}
+.navbar-brand{
+  color:black;
+  
+}
+.h3{
+  font-size: 2px !important ;
+  
+}
+.flex-container{
+  display:flex !important;
+}
+.btn{
+  background-color: deeppink !important;
+  color:white !important;
+  font-weight: 20px !important;
+}
+select{
+  box-shadow: none !important;
+  border-color: deeppink !important;
+}
+.fa-plus{
+  color:green !important;
+  margin: 5px;
+}
+.fa-minus{
+  color:red !important;
+  margin: 5px;
+}
+.fa-trash{
+  color:red;
+}
+.text-right {
+  text-align: right;
+}
+
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+.adminfunctions {
+  padding: 10px;
+  background-color: deeppink;
+}
+
+.adminfunctions li {
+  list-style-type: none !important;
+  display: inline !important;
+  color:black !important;
+}
+.adminfunctions li a {
+  color: black !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  padding: 20px;
+}
+td,
+th,
+tr {
+  text-align: left;
+  
+}
+td{
+  font-size: 25px;
+  font-weight: bold;
+}
+th{
+  font-size: 30px;
+  font-weight: bold;
 }
