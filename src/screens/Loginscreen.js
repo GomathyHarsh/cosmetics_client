@@ -46,7 +46,7 @@ export default function LoginScreen() {
               required
             />
             <input
-              type="text"
+              type="password"
               placeholder="password"
               className="form-control"
               value={password}
