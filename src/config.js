@@ -1,3 +1,3 @@
 export const config = {
-  API: "https://cosmetics-server.onrender.com",
+  API: "https://cosmetics-server.onrender.com/api",
 };
