@@ -1,3 +1,3 @@
-export const config={
-    API:"http://localhost:4000"
-}
+export const config = {
+  API: "https://cosmetics-server.onrender.com",
+};

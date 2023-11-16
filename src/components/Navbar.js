@@ -5,7 +5,7 @@ const Navbar = () => {
   const cartstate = useSelector((state) => state.cartReducer);
   const userstate = useSelector((state) => state.loginUserReducer);
   const { currentUser } = userstate;
-  const dispatch=useDispatch()
+  const dispatch = useDispatch();
   return (
     <div>
       <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-body-tertiary rounded">
@@ -49,9 +49,13 @@ const Navbar = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#" onClick={() => {
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        onClick={() => {
                           dispatch(logoutUser());
-                        }}>
+                        }}
+                      >
                         Logout
                       </a>
                     </li>
