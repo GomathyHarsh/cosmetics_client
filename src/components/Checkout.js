@@ -26,6 +26,7 @@ export default function Checkout({ subtotal }) {
       <StripeCheckout
         amount={subtotal * 100}
         shippingAddress
+        billingAddress
         token={tokenHandler}
         currency="INR"
         stripeKey="pk_test_51NeynqSFSKenJz88v9iwXiKCXCiz3Cx7sraueH1tUZiYqfy8CVusMligHjFReOjiP3pm4n5mXVy1nGOgrwTLwkP200onQ2upjE"
