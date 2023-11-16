@@ -20,7 +20,7 @@ export default function Filter() {
             value={searchkey}
             type="text"
             className="form-control w-100"
-            placeholder="search shawarmas"
+            placeholder="search Products"
             
           />
         </div>
